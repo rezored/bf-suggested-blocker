@@ -1,4 +1,4 @@
-const adIndicators = ['Предложено за вас']; // Add indicators that appear within ads or suggested posts
+const adIndicators = ['Предложено за вас', 'Последване']; // Add indicators that appear within ads or suggested posts
 
 function removeAdsAndSuggestedPosts(mutationList, observer) {
 	// If any added nodes contain one of the adIndicators, hide their closest article ancestor
